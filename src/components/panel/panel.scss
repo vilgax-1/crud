@@ -1,0 +1,51 @@
+.panel{
+    width: inherit;
+    background: #fff;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.info-employee{
+    display: flex;
+    width: inherit;
+    box-shadow: 1px 1px 3px 2px rgba($color: #000000, $alpha: .2);
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    .avatar{
+        width: auto;
+        img{
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .description-employee{
+        width: 37%;
+        padding: 30px;
+    }
+    .actions{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.edit, .delete{
+    border: none;
+    background: transparent;
+    color: #008AFF;
+    font-size: 1.1vw;
+    font-weight: lighter;
+    margin-right: 1vw;
+    cursor: pointer;
+    outline: none;
+}
+
+.delete{
+    color: #FF0D0D;
+}
